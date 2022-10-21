@@ -38,5 +38,5 @@ try {
 } catch(error) {
     console.log('something went wront, check your source and destination paths!');
     throw error;
-};
+}
 
