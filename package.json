@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "texgen-watch": "npx ts-node src/texgen.ts",
+    "dyndolod-watch": "npx ts-node src/dyndolod.ts"
   },
   "author": "Petri Hoskonen",
   "license": "ISC",
